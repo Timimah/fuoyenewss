@@ -1,0 +1,79 @@
+/* .container{
+    background-color: green;
+} */
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em;
+    padding-left: 2em;
+    padding-right: 4em;
+}
+.nav-logo{
+    width: 3em;
+}
+.logo{
+   display: flex;
+   align-items: center;
+   gap: 1em;
+}
+.main-nav{
+    gap: 2em;
+    background-color: green;
+    padding: 1em;
+    padding-right: 4em;
+    color:white;
+}
+.cta{
+    margin-top: 7em;
+}
+.cta img{
+    object-fit: cover;
+    height: 30em;
+    opacity: 90%;
+}
+.cta-div{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+    background-color: black;
+    padding-top: 15em;
+    text-align: center;
+    color: white; opacity: 60%;
+}
+svg{
+    margin-left: 0.4em;
+    margin-right: 0.3em;
+    align-self: center;
+}
+section{
+    background-color: whitesmoke;
+}
+#feed{
+    display: flex;
+	scroll-snap-type: inline mandatory; 
+    flex-wrap: nowrap;
+    overflow-x: hidden;
+    flex-direction: row;
+    width: 100%;
+    margin: 2em;
+    padding: 2em;
+}
+.card{
+   flex: 0 0 auto;
+}
+footer{
+    color: white;
+    text-align: center;
+    padding: 1.2em;
+    background-color: green;
+}
+.hover-effect:hover {
+    color: green;
+    background-color: white;
+}
+.pt-6{
+    padding-top: 8rem !important;
+}
