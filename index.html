@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fuoye News</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://getbootstrap.com/docs/5.2/assets/css/docs.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="con">
+      <nav class="fixed-top">
+        <div class="header flex-column flex-md-row flex-lg-row bg-light">
+          <div class="logo">
+            <img class="nav-logo" src="assets/logo.png" alt="Fuoye logo" />
+            <span>Fuoye News</span>
+          </div>
+          <div class="d-flex my-4 m-md-0 m-lg-0 align-items-center mx-4">
+            <label for="searchInput"></label>
+            <div class="rounded border d-flex">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-search"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+                />
+              </svg>
+              <input
+                type="text"
+                class="border-0 p-2"
+                placeholder="Search"
+                id="searchInput"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="main-nav d-flex flex-wrap justify-content-around align-items-center justify-content-md-end justify-content-lg-end"
+        >
+          <div class="my-2 my-md-0 mx-2 d-md-none">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarCollapse"
+              aria-controls="navbarCollapse"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-list"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+                  />
+                </svg>
+              </span>
+            </button>
+          </div>
+          <div class="d-none d-md-flex d-lg-flex">
+            <div class="my-2 my-md-0 mx-2">Home</div>
+            <div class="my-2 my-md-0 mx-2">About</div>
+            <div class="my-2 my-md-0 mx-2">Contact</div>
+          </div>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="my-2 my-md-0 mx-2">Home</div>
+            <div class="my-2 my-md-0 mx-2">About</div>
+            <div class="my-2 my-md-0 mx-2">Contact</div>
+          </div>
+          <div class="d-flex ml-2">
+            <div class="mx-2 mx-md-4 text-end">
+              <div class="border border-dark rounded px-3 py-2 hover-effect">
+                Log In
+              </div>
+            </div>
+            <div class="mx-2 mx-md-4 text-end">
+              <div class="border border-dark rounded px-3 py-2 hover-effect">
+                Sign Up
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <main>
+        <div
+          class="cta card carousel slide carousel-fade"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="cta-div p-5 pt-6">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+                vitae facilis cumque quam. Minus vel commodi ex modi quae
+                temporibus porro ipsam, voluptate voluptas repudiandae
+                assumenda, officia autem, fuga nam non iure. Minus nemo quos
+                nisi sed, necessitatibus commodi fugit sapiente, totam facere
+                reiciendis pariatur animi ea dolor possimus ducimus.
+              </div>
+              <img
+                src="assets/fuoye-campus.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <div class="cta-div">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+                vitae facilis cumque quam. Minus vel commodi ex modi quae
+                temporibus porro ipsam, voluptate voluptas repudiandae
+                assumenda, officia autem, fuga nam non iure. Minus nemo quos
+                nisi sed, necessitatibus commodi fugit sapiente, totam facere
+                reiciendis pariatur animi ea dolor possimus ducimus.
+              </div>
+              <img src="assets/R (1).jpeg" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <div class="cta-div">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+                vitae facilis cumque quam. Minus vel commodi ex modi quae
+                temporibus porro ipsam, voluptate voluptas repudiandae
+                assumenda, officia autem, fuga nam non iure. Minus nemo quos
+                nisi sed, necessitatibus commodi fugit sapiente, totam facere
+                reiciendis pariatur animi ea dolor possimus ducimus.
+              </div>
+              <img src="assets/R.jpeg" class="d-block w-100" alt="..." />
+            </div>
+          </div>
+        </div>
+        <section>
+          <h3 class="m-5 mt-4">News</h3>
+          <div id="feed" class=""></div>
+        </section>
+      </main>
+      <footer>
+        <div>Fuoye News || 2023</div>
+      </footer>
+    </div>
+  </body>
+  <script src="assets/bootstrap.js"></script>
+  <script src="index.js"></script>
+</html>
